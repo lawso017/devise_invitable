@@ -3,6 +3,7 @@ source :rubygems
 gemspec
 
 group :test do
+  gem "devise-encryptable"
   gem "sqlite3", "~> 1.3.4"
   gem "mongoid", "~> 2.3"
   gem "bson_ext", "~> 1.3"
